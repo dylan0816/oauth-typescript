@@ -8,6 +8,10 @@ node {
     download = true
 }
 
+npmInstall {
+  args = ['--dev']
+}
+
 task build(type: NodeTask, dependsOn: npmInstall) {
     script = file('node_modules/tsc/bin/tsc')
     args = ['-p', 'src/main/ts']
