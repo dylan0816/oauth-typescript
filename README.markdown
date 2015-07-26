@@ -6,3 +6,9 @@
 ```
 ./gradlew build
 ```
+
+## Run tests
+
+```
+./gradlew runTest
+```

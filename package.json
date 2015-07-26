@@ -1,7 +1,11 @@
 {
   "name": "oauth-typescript",
   "version": "0.0.1",
+  "scripts": {
+    "test": "./gradlew runTest"
+  },
   "devDependencies": {
+    "mocha": "^2.2.5",
     "tsc": "^1.20150623.0"
   }
 }

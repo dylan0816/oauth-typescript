@@ -1,8 +1,7 @@
 {
     "compilerOptions": {
-        "declaration": true,
         "noEmitOnError": true,
         "noImplicitAny": true,
-        "outDir": "../../../built/main/"
+        "out": "./built/test/test.js"
     }
 }
